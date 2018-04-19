@@ -12,6 +12,7 @@
 		EA7748362088E43F00CA12B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7748342088E43F00CA12B9 /* Main.storyboard */; };
 		EA7748382088E43F00CA12B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7748372088E43F00CA12B9 /* Assets.xcassets */; };
 		EA77483B2088E43F00CA12B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7748392088E43F00CA12B9 /* LaunchScreen.storyboard */; };
+		EA7748432088EBDF00CA12B9 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = EA7748422088EBD600CA12B9 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EA7748372088E43F00CA12B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA77483A2088E43F00CA12B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA77483C2088E43F00CA12B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7748422088EBD600CA12B9 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				EA7748322088E43F00CA12B9 /* ViewController.swift */,
 				EA7748342088E43F00CA12B9 /* Main.storyboard */,
 				EA7748372088E43F00CA12B9 /* Assets.xcassets */,
+				EA7748422088EBD600CA12B9 /* pokemon.csv */,
 				EA7748392088E43F00CA12B9 /* LaunchScreen.storyboard */,
 				EA77483C2088E43F00CA12B9 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				EA77483B2088E43F00CA12B9 /* LaunchScreen.storyboard in Resources */,
 				EA7748382088E43F00CA12B9 /* Assets.xcassets in Resources */,
+				EA7748432088EBDF00CA12B9 /* pokemon.csv in Resources */,
 				EA7748362088E43F00CA12B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WESCS98BF;
 				INFOPLIST_FILE = pokedex3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoweichen.pokedex3;
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WESCS98BF;
 				INFOPLIST_FILE = pokedex3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoweichen.pokedex3;
